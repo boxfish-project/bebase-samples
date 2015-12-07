@@ -212,6 +212,10 @@ project/boot/
 .svn/
 
 
+### ODPS ###
+temp
+warehouse
+
 ### 自定义 ###
 *.xlsx
 *.json
