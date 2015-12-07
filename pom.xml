@@ -12,6 +12,7 @@
     <modules>
         <module>boot-with-emoji</module>
         <module>boot</module>
+        <module>odps</module>
     </modules>
 
     <properties>
@@ -43,11 +44,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
-            </plugin>
             <plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
