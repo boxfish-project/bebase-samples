@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: develop
+#zuul:
+#  routes:
+#    user: http://localhost:1000/
+server:
+  port: 5555
